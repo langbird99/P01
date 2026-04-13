@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "k-enter-news"
+version = "0.1.0"
+description = "K-Entertainment News Crawling & Processing Pipeline"
+authors = []
+license = "MIT"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.13"
+
+python-dotenv = "1.*"
+sqlalchemy = "2.*"
+openai = "1.*"
+tavily-python = "*"
+playwright = "*"
+feedparser = "^6.0.12"
+onnxruntime = "<1.24"
+langchain-chroma = "^1.1.0"
+langchain-huggingface = "^1.2.1"
+numpy = "<2"
+sentence-transformers = "<4"
+torch = ">=2.2,<2.3"
+torchvision = ">=0.17,<0.18"
+transformers = "<5"
+pandas = ">=2.0,<3"
+streamlit = "^1.56.0"
+edge-tts = "^7.2.8"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
